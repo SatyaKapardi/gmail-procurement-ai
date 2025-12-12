@@ -224,13 +224,13 @@ Enter product name: sony xm5
 📡 Trying search URL...
 
 ⏳ Establishing connection to Walmart...
-✅ Successfully fetched page, parsing results...
+Successfully fetched page, parsing results...
 📦 Checking eBay...
 🔍 Searching eBay for: sony xm5
 📡 Trying search URL...
 
 ⏳ Establishing connection to eBay...
-✅ Successfully fetched page, parsing results...
+Successfully fetched page, parsing results...
 
 ================================================================================
 📊 MARKET ANALYSIS - RETAIL
@@ -299,8 +299,8 @@ $ python3 alibaba_price_parser.py wireless headphones
 📡 Trying search URL...
 
 ⏳ Establishing connection to Alibaba...
-✅ Successfully fetched page, parsing results...
-✅ Found 3 unique listings
+Successfully fetched page, parsing results...
+Found 3 unique listings
 📋 Price range: $5.990 - $13.000 per unit
 
 
@@ -373,7 +373,7 @@ $ python3 alibaba_price_parser.py wireless headphones
      📦 MOQ: 1 units
 
 ======================================================================
-✅ Analysis Complete!
+Analysis Complete!
 ======================================================================
 ```
 
@@ -444,26 +444,26 @@ $ python3 fred_price_parser.py COPPER
 ## Key Features Demonstrated
 
 ### Retail Analysis
-- ✅ Aggregates prices from Amazon, Walmart, eBay
-- ✅ Calculates median, average, min, max prices
-- ✅ Shows price range across retailers
-- ✅ Provides market price estimate
+- Aggregates prices from Amazon, Walmart, eBay
+- Calculates median, average, min, max prices
+- Shows price range across retailers
+- Provides market price estimate
 
 ### Wholesale Analysis
-- ✅ Extracts prices from Alibaba
-- ✅ Shows MOQ (Minimum Order Quantity) ranges
-- ✅ Calculates price statistics with MOQ context
-- ✅ Provides supplier information and product links
+- Extracts prices from Alibaba
+- Shows MOQ (Minimum Order Quantity) ranges
+- Calculates price statistics with MOQ context
+- Provides supplier information and product links
 
 ### Commodity Analysis
-- ✅ Aggregates data from multiple APIs (FRED, EIA, Alpha Vantage)
-- ✅ Shows unit conversions (barrel to gallon, ton to pound, etc.)
-- ✅ Displays price movements and trends
-- ✅ Provides detailed breakdowns with category information
+- Aggregates data from multiple APIs (FRED, EIA, Alpha Vantage)
+- Shows unit conversions (barrel to gallon, ton to pound, etc.)
+- Displays price movements and trends
+- Provides detailed breakdowns with category information
 
 ### Unified System
-- ✅ Single interface for all analysis types
-- ✅ Parallel data collection from multiple sources
-- ✅ Comprehensive market intelligence in seconds
-- ✅ Actionable insights for procurement decisions
+- Single interface for all analysis types
+- Parallel data collection from multiple sources
+- Comprehensive market intelligence in seconds
+- Actionable insights for procurement decisions
 
