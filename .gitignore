@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+
+# Keep .env.example files (they're templates)
+!.env.example
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Extension
+extension/icons/*.png
+!extension/icons/README.md
+
+# Secrets and API keys
+**/secrets.json
+**/*secret*
+**/*key*
+**/*.pem
+**/*.key
+**/credentials.json
+**/config.json
+
+# Cloudflare
+.wrangler/
+wrangler.toml.local
+.wrangler/
+
+# Personal/User-specific files
+*.local
+*.backup
+*.bak
